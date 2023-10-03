@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: gainsboro;
+}
+#ads_photo{
+    height: 250px;
+    width: 300px;
+}
+.all{
+    display: flex;
+}
+.aside{
+    display: flex;
+    align-items: center;
+}
