@@ -1,0 +1,40 @@
+#footer{
+    padding: 0;
+    margin-bottom: 0;
+}
+.jumia_footer{
+    
+    background-color: black;
+
+}
+.all_footer{
+    background-color: grey;
+}
+.needhelp_footer{
+
+}
+.joinus_footer{
+
+}
+.others_footer{
+    display: flex;
+
+}
+.list_company{
+    list-style-type: none;
+    }
+li a{
+    color: #f1f1f2;
+}
+.gender_button {
+    border: solid 1px #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 45px;
+    width: 100px;
+
+}
+input{
+    height: 45px;
+    width: 150px;
+}
