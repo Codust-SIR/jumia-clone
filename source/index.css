@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -14,3 +15,31 @@
     display: flex;
     align-items: center;
 }
+=======
+#navigation_bar{
+    height: 100%;
+    flex: 0.2;
+    border-right: 1px solid grey;
+    padding-left: 10px;
+    padding-right: 7px;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+}
+
+li:hover{
+    background-color: rgba(255, 255, 255, 0.20);
+    border-radius: 3px;
+}
+
+li{
+    display: flex;
+    gap: 10px;
+    padding: 8px;
+    padding-left: 0px;
+    border-radius: 4px;
+    align-items: center;
+}
+>>>>>>> 348f641dfd20371ea495b48215c01254de6e428d

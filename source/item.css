@@ -1,0 +1,17 @@
+.official_delivery{
+    display: flex;
+    justify-content: space-between;
+    gap: 29px;
+    padding-top: 20px;
+}
+.fsfs{
+    flex: 0.7;
+    background-color: gainsboro;
+    height: 50vh;
+    border-radius: 1%;
+}
+.drdr{
+    flex: 0.3;
+    background-color: gainsboro;
+    height: 50vh;
+}
