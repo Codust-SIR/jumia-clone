@@ -1,0 +1,9 @@
+.shop{
+    display: flex;
+}
+.official_store{
+    flex: 0.7;
+}
+.delivery_and_return{
+    flex: 0.3;
+}
