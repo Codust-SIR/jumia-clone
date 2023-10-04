@@ -4,6 +4,7 @@
     gap: 29px;
     padding-top: 20px;
     padding-left: 35px;
+    
 }
 .fsfs{
     flex: 0.7;
@@ -14,5 +15,9 @@
 .drdr{
     flex: 0.3;
     background-color: gainsboro;
-    height: 50vh;
+    height: 556px;
+    width: 30px;
 }
+
+
+
