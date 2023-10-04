@@ -1,9 +1,13 @@
 .shop{
-    display: flex;
+    display: grid;
 }
 .official_store{
     flex: 0.7;
+    place-items: center;
+    padding: 0;
+    margin: 0;
 }
 .delivery_and_return{
     flex: 0.3;
+    place-items: right;
 }
