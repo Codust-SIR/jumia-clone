@@ -1,0 +1,17 @@
+.middle{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(165, 46, 42);
+    color: white;
+
+}
+.narrow_div{
+    display: flex;
+}
+.icon_js{
+    display: flex;
+    align-self: auto;
+}
+.h6{
+    color: white;
+}
