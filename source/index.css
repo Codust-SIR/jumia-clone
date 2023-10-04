@@ -1,51 +1,3 @@
-<<<<<<< HEAD
-.header {
-    width: 100%;
-}
-=======
-<<<<<<< HEAD
-#footer{
-    padding: 0;
-    margin-bottom: 0;
-}
-.jumia_footer{
-    
-    background-color: black;
-
-}
-.all_footer{
-    background-color: grey;
-}
-.needhelp_footer{
-
-}
-.joinus_footer{
-
-}
-.others_footer{
-    display: flex;
-
-}
-.list_company{
-    list-style-type: none;
-    }
-li a{
-    color: #f1f1f2;
-}
-.gender_button {
-    border: solid 1px #fff;
-    border-radius: 5px;
-    cursor: pointer;
-    height: 45px;
-    width: 100px;
-
-}
-input{
-    height: 45px;
-    width: 150px;
-}
-=======
->>>>>>> 5a4b86bd3e6703ed12e9b8bd5ae90c03e4e49f19
 #navigation_bar{
     height: 100%;
     flex: 0.2;
@@ -72,4 +24,3 @@ li{
     border-radius: 4px;
     align-items: center;
 }
->>>>>>> 5539053a3938755a443c56b64a128c87debc4b2b

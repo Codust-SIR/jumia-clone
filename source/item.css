@@ -1,5 +1,5 @@
 .official_delivery{
-    display: flex;
+    display: grid;
     justify-content: space-between;
     gap: 29px;
     padding-top: 20px;
@@ -15,5 +15,4 @@
     flex: 0.3;
     background-color: gainsboro;
     height: 50vh;
-    border-radius: 1%;
 }
