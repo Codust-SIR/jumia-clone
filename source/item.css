@@ -1,9 +1,17 @@
-.shop{
+.official_delivery{
     display: flex;
+    justify-content: space-between;
+    gap: 29px;
+    padding-top: 20px;
 }
-.official_store{
+.fsfs{
     flex: 0.7;
+    background-color: gainsboro;
+    height: 50vh;
+    border-radius: 1%;
 }
-.delivery_and_return{
+.drdr{
     flex: 0.3;
+    background-color: gainsboro;
+    height: 50vh;
 }
