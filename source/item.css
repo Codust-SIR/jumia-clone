@@ -3,15 +3,17 @@
     justify-content: space-between;
     gap: 29px;
     padding-top: 20px;
+    padding-left: 35px;
 }
 .fsfs{
     flex: 0.7;
     background-color: gainsboro;
     height: 50vh;
-    border-radius: 1%;
+    border-radius: 1px;
 }
 .drdr{
     flex: 0.3;
     background-color: gainsboro;
     height: 50vh;
+    border-radius: 1%;
 }
