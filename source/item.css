@@ -1,13 +1,12 @@
-.shop{
+.official_delivery{
     display: grid;
+    justify-content: space-between;
+    gap: 29px;
+    padding-top: 20px;
 }
-.official_store{
+.fsfs{
     flex: 0.7;
-    place-items: center;
-    padding: 0;
-    margin: 0;
 }
-.delivery_and_return{
+.drdr{
     flex: 0.3;
-    place-items: right;
 }
