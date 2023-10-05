@@ -1,3 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: gainsboro;
+}
+#ads_photo{
+    height: 420px;
+    width: 600px;
+}
+
+.horizontal{
+    display: flex;
+}
+.all{
+    display: flex;
+}
+.aside{
+    display: grid;
+    align-items: center;
+}
 #navigation_bar{
     height: 100%;
     flex: 0.2;
