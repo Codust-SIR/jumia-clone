@@ -1,5 +1,6 @@
 body{
     background-color: gainsboro;
+    place-items: center;
 }
 
 
@@ -23,7 +24,8 @@ body{
     flex: 0.3;
     background-color: white;
     height: 556px;
-    width: 30px;
+    width: 15px;
+    
 }
 
 .down{
