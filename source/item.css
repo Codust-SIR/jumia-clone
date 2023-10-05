@@ -1,5 +1,6 @@
 body{
     background-color: gainsboro;
+    place-items: center;
 }
 
 
@@ -22,8 +23,9 @@ body{
 .drdr{
     flex: 0.3;
     background-color: white;
-    height: 556px;
-    width: 30px;
+    height: 856px;
+    width: 15px;
+
 }
 
 .down{
@@ -37,6 +39,10 @@ body{
 
 .color{
     color: chocolate;
+}
+
+.hads{
+    display: grid;
 }
 
 
