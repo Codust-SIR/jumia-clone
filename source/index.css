@@ -4,19 +4,27 @@ body{
     background-color: gainsboro;
 }
 #ads_photo{
-    height: 420px;
-    width: 600px;
+    height: 490px;
+    width: 620px;
+}
+
+.first{
+    background-color: white;
+    height: 490px;
 }
 
 .horizontal{
     display: flex;
+    gap: 10px;
 }
 .all{
     display: flex;
+    gap: 10px;
 }
 .aside{
     display: grid;
     align-items: center;
+    background-color: white;
 }
 #navigation_bar{
     height: 100%;
@@ -43,4 +51,32 @@ li{
     padding-left: 0px;
     border-radius: 4px;
     align-items: center;
+}
+
+
+.middle{
+    display: flex;
+    align-items: center;
+    background-color: rgb(215, 15, 15);
+    justify-content: space-between;
+
+    
+}
+.icon_js{
+    display: flex;
+    align-items: center;
+}
+.narrow_div{
+    display: flex;
+    align-items: center;
+    
+}
+h4{
+    color: white;
+}
+.content{
+    display: flex;
+    gap: 25px;
+    margin: 10px;
+    background-color: white;
 }
