@@ -44,3 +44,31 @@ li{
     border-radius: 4px;
     align-items: center;
 }
+
+
+.middle{
+    display: flex;
+    align-items: center;
+    background-color: rgb(215, 15, 15);
+    justify-content: space-between;
+
+    
+}
+.icon_js{
+    display: flex;
+    align-items: center;
+}
+.narrow_div{
+    display: flex;
+    align-items: center;
+    
+}
+h4{
+    color: white;
+}
+.content{
+    display: flex;
+    gap: 25px;
+    margin: 10px;
+    background-color: white;
+}
