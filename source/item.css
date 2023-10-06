@@ -1,9 +1,53 @@
-.shop{
+body{
+    background-color: gainsboro;
+    
+}
+
+
+
+.official_delivery{
+    display: flex;
+    justify-content: space-between;
+    gap: 29px;
+    padding-top: 20px;
+    padding-left: 35px;
+    
+    
+    
+}
+.fsfs{
+    flex: 0.7;
+    background-color: white;
+    height: 50vh;
+    border-radius: 1px;
+}
+.drdr{
+    flex: 0.3;
+    background-color: white;
+    height: 856px;
+    width: 15px;
+
+}
+
+.down{
     display: flex;
 }
-.official_store{
-    flex: 0.7;
+
+.title{
+    display: flex;
+    
 }
-.delivery_and_return{
-    flex: 0.3;
+
+.color{
+    color: chocolate;
 }
+
+.hads{
+    display: grid;
+}
+
+
+
+
+
+

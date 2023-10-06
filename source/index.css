@@ -1,43 +1,42 @@
+<<<<<<< HEAD
 #footer{
+=======
+body{
+    margin: 0;
+>>>>>>> fff955196a7a83409272cfd95ec65fc8e7817312
     padding: 0;
-    margin-bottom: 0;
+    background-color: gainsboro;
 }
-.jumia_footer{
-    
-    background-color: black;
+#ads_photo{
+    height: 490px;
+    width: 620px;
+}
 
+.first{
+    background-color: white;
+    height: 490px;
 }
-.all_footer{
-    background-color: grey;
-}
-.needhelp_footer{
 
-}
-.joinus_footer{
-
-}
-.others_footer{
+.horizontal{
     display: flex;
-
+    gap: 10px;
 }
-.list_company{
-    list-style-type: none;
-    }
-li a{
-    color: #f1f1f2;
+.all{
+    display: flex;
+    gap: 10px;
 }
-.gender_button {
-    border: solid 1px #fff;
-    border-radius: 5px;
-    cursor: pointer;
-    height: 45px;
-    width: 100px;
-
+.aside{
+    display: grid;
+    align-items: center;
+    background-color: white;
 }
+<<<<<<< HEAD
 input{
     height: 45px;
     width: 150px;
 }
+=======
+>>>>>>> fff955196a7a83409272cfd95ec65fc8e7817312
 #navigation_bar{
     height: 100%;
     flex: 0.2;
@@ -64,3 +63,34 @@ li{
     border-radius: 4px;
     align-items: center;
 }
+<<<<<<< HEAD
+=======
+
+
+.middle{
+    display: flex;
+    align-items: center;
+    background-color: rgb(215, 15, 15);
+    justify-content: space-between;
+
+    
+}
+.icon_js{
+    display: flex;
+    align-items: center;
+}
+.narrow_div{
+    display: flex;
+    align-items: center;
+    
+}
+h4{
+    color: white;
+}
+.content{
+    display: flex;
+    gap: 25px;
+    margin: 10px;
+    background-color: white;
+}
+>>>>>>> fff955196a7a83409272cfd95ec65fc8e7817312
