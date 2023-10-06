@@ -45,7 +45,20 @@ body{
     display: grid;
 }
 
+.like{
+    display: block;
+    place-items: center;
+}
+.osos{
+    display: flex;
+    gap: 20px;
+    padding-top: 15px;
+}
 
+.icon{
+    padding-left: 650px;
+    
+}
 
 
 
