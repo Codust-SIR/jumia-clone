@@ -1,3 +1,10 @@
+body{
+    background-color: gainsboro;
+    
+}
+
+
+
 .official_delivery{
     display: flex;
     justify-content: space-between;
@@ -5,19 +12,40 @@
     padding-top: 20px;
     padding-left: 35px;
     
+    
 }
 .fsfs{
     flex: 0.7;
-    background-color: gainsboro;
+    background-color: white;
     height: 50vh;
     border-radius: 1px;
 }
 .drdr{
     flex: 0.3;
-    background-color: gainsboro;
-    height: 556px;
-    width: 30px;
+    background-color: white;
+    height: 856px;
+    width: 15px;
+
 }
+
+.down{
+    display: flex;
+}
+
+.title{
+    display: flex;
+    
+}
+
+.color{
+    color: chocolate;
+}
+
+.hads{
+    display: grid;
+}
+
+
 
 
 

@@ -1,21 +1,31 @@
-<<<<<<< HEAD
-*{
+body{
     margin: 0;
     padding: 0;
     background-color: gainsboro;
 }
 #ads_photo{
-    height: 250px;
-    width: 300px;
+    height: 490px;
+    width: 620px;
+}
+
+.first{
+    background-color: white;
+    height: 490px;
+}
+
+.horizontal{
+    display: flex;
+    gap: 10px;
 }
 .all{
     display: flex;
+    gap: 10px;
 }
 .aside{
-    display: flex;
+    display: grid;
     align-items: center;
+    background-color: white;
 }
-=======
 #navigation_bar{
     height: 100%;
     flex: 0.2;
@@ -42,4 +52,31 @@ li{
     border-radius: 4px;
     align-items: center;
 }
->>>>>>> 348f641dfd20371ea495b48215c01254de6e428d
+
+
+.middle{
+    display: flex;
+    align-items: center;
+    background-color: rgb(215, 15, 15);
+    justify-content: space-between;
+
+    
+}
+.icon_js{
+    display: flex;
+    align-items: center;
+}
+.narrow_div{
+    display: flex;
+    align-items: center;
+    
+}
+h4{
+    color: white;
+}
+.content{
+    display: flex;
+    gap: 25px;
+    margin: 10px;
+    background-color: white;
+}
