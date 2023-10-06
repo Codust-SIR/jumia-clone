@@ -1,9 +1,7 @@
-<<<<<<< HEAD
-#footer{
-=======
+
 body{
     margin: 0;
->>>>>>> fff955196a7a83409272cfd95ec65fc8e7817312
+
     padding: 0;
     background-color: gainsboro;
 }
@@ -30,13 +28,12 @@ body{
     align-items: center;
     background-color: white;
 }
-<<<<<<< HEAD
+
 input{
     height: 45px;
     width: 150px;
 }
-=======
->>>>>>> fff955196a7a83409272cfd95ec65fc8e7817312
+
 #navigation_bar{
     height: 100%;
     flex: 0.2;
@@ -62,11 +59,7 @@ li{
     padding-left: 0px;
     border-radius: 4px;
     align-items: center;
-}
-<<<<<<< HEAD
-=======
-
-
+    }
 .middle{
     display: flex;
     align-items: center;
@@ -93,4 +86,31 @@ h4{
     margin: 10px;
     background-color: white;
 }
->>>>>>> fff955196a7a83409272cfd95ec65fc8e7817312
+#footer{
+    color: whitesmoke;
+}
+img{
+    height: 100px;
+    width: 200px;
+}
+.jumia_footer{
+    display: flex;
+    gap: 100px;
+    font-size: 75rem;
+}
+.email_input{
+    padding-left: 48px;
+    -webkit-appearance: none;
+    font-size: 1rem;
+    height: 50px;
+    box-shadow: none;
+    border: 1px solid #a3a3a6;
+    outline-offset: -2px;
+    color: #313133;
+    border-radius: 4px;
+    overflow: visible;
+    box-sizing: border-box;
+    padding-block: 1px;
+    padding-inline: 2px;
+    cursor: text;
+}
