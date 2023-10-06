@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.star{
+   padding-left: 150px;
+}
+.welcome>h3{
+    padding-left: 90px;
+}
+
+input{
+width: 375px;
+height: 30px;
+
+}
+.Continue{
+    width: 380px;
+    height: 35px;
+    background-color: orange;
+}
+.facebook{
+    width: 380px;
+    height:35px;
+    background-color: rgb(0, 81, 255);
+
+}
+.footer>img{
+    width: 150px;
+    height: 30px;
+    padding-left: 100px;
+}
+.footer>h6{
+    padding-left: 50px; 
+}
+
+
+
