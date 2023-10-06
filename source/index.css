@@ -1,5 +1,7 @@
+
 body{
     margin: 0;
+
     padding: 0;
     background-color: gainsboro;
 }
@@ -26,6 +28,12 @@ body{
     align-items: center;
     background-color: white;
 }
+
+input{
+    height: 45px;
+    width: 150px;
+}
+
 #navigation_bar{
     height: 100%;
     flex: 0.2;
@@ -51,9 +59,7 @@ li{
     padding-left: 0px;
     border-radius: 4px;
     align-items: center;
-}
-
-
+    }
 .middle{
     display: flex;
     align-items: center;
@@ -79,4 +85,43 @@ h4{
     gap: 25px;
     margin: 10px;
     background-color: white;
+}
+ HEAD
+#footer{
+    color: whitesmoke;
+}
+img{
+    height: 100px;
+    width: 200px;
+}
+.jumia_footer{
+    display: flex;
+    gap: 100px;
+    font-size: 75rem;
+}
+.email_input{
+    padding-left: 48px;
+    -webkit-appearance: none;
+    font-size: 1rem;
+    height: 50px;
+    box-shadow: none;
+    border: 1px solid #a3a3a6;
+    outline-offset: -2px;
+    color: #313133;
+    border-radius: 4px;
+    overflow: visible;
+    box-sizing: border-box;
+    padding-block: 1px;
+    padding-inline: 2px;
+    cursor: text;
+
+.container{
+    display: flex;
+    margin: 20px;
+    
+}
+.quality{
+    text-align: center;
+    background-color: rgb(255, 162, 0);
+
 }
