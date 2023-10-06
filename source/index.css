@@ -80,3 +80,13 @@ h4{
     margin: 10px;
     background-color: white;
 }
+
+.container{
+    display: flex;
+    margin: 20px;
+    
+}
+.quality{
+    text-align: center;
+    background-color: rgb(255, 162, 0);
+}
