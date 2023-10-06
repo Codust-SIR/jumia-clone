@@ -10,29 +10,6 @@ body{
     width: 620px;
 }
 
-.first{
-    background-color: white;
-    height: 490px;
-}
-
-.horizontal{
-    display: flex;
-    gap: 10px;
-}
-.all{
-    display: flex;
-    gap: 10px;
-}
-.aside{
-    display: grid;
-    align-items: center;
-    background-color: white;
-}
-
-input{
-    height: 45px;
-    width: 150px;
-}
 
 #navigation_bar{
     height: 100%;
