@@ -6,8 +6,12 @@ body{
     background-color: gainsboro;
 }
 #ads_photo{
-    height: 490px;
+    height: 430px;
     width: 620px;
+}
+
+#watermelon{
+    height: 200px;
 }
 
 
@@ -74,7 +78,6 @@ h4{
 
 }
 
- HEAD
 #footer{
     color: whitesmoke;
 }
@@ -86,6 +89,10 @@ img{
     display: flex;
     margin: 20px;
     
+}
+
+.horiz{
+    display: flex;
 }
 .quality{
     text-align: center;
