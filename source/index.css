@@ -6,8 +6,12 @@ body{
     background-color: gainsboro;
 }
 #ads_photo{
-    height: 490px;
+    height: 430px;
     width: 620px;
+}
+
+#watermelon{
+    height: 200px;
 }
 
 
@@ -73,7 +77,6 @@ h4{
     background-color: rgb(255, 162, 0);
 }
 
- HEAD
 #footer{
     color: whitesmoke;
 }
@@ -85,6 +88,10 @@ img{
     display: flex;
     margin: 20px;
     
+}
+
+.horiz{
+    display: flex;
 }
 .quality{
     text-align: center;
@@ -99,6 +106,7 @@ img{
 }
 a{
     color: #f1f1f2;
+    text-decoration: none;
 }
 .joinus_logo{
     display: flex;
@@ -112,4 +120,55 @@ a{
 }
 .jumia_footer{
     background-color: black;
+    display: flex;
+    gap: 40px;
+    padding-right: 0px;
+    place-content: center;
+    justify-content: center;
+}
+.gender_button{
+   
+    gap: 20px;
+    height: 48px;
+    width: 70px;
+    border-color: #f68b1e;
+    color: #f68b1e;
+    outline: 0;
+    font-size: .75rem;
+    padding: 15px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0;
+    overflow: visible;
+    box-sizing: border-box;
+
+
+
+}
+.email_input{
+    padding-left: 48px;
+    font-size: 1rem;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    height: 48px;
+    width: 60%;
+    box-shadow: none;
+    color: #313133;
+    border-radius: 4px;
+    border: 1px solid #a3a3a6;
+    margin: 0;
+    box-sizing: border-box;
+}
+.emaigender{
+    display: flex;
+}
+.downloadapp{
+    padding-left: 600px;
+}
+.newjumia{
+    padding-left: 10%;
 }
