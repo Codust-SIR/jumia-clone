@@ -21,7 +21,7 @@ body {
   padding-right: 7px;
 }
 
-ul {
+/* ul {
   list-style: none;
   padding: 0px;
 }
@@ -38,7 +38,7 @@ li {
   padding-left: 0px;
   border-radius: 4px;
   align-items: center;
-}
+} */
 .middle {
   display: flex;
   align-items: center;
@@ -201,4 +201,15 @@ a {
   color: white;
   border: none;
   text-transform: uppercase;
+}
+
+.navigation_bar {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+.navigation_bar > img {
+  height: 100%;
+  width: 50%;
+  border-radius: 5px;
 }
