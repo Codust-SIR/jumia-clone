@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     display: flex;
     height: 100vh;
@@ -32,13 +33,171 @@ body{
 li:hover{
     color: pink;
     border-radius: 3px;
+=======
+body {
+  margin: 0;
+
+  padding: 0;
+  background-color: gainsboro;
+}
+#ads_photo {
+  height: 430px;
+  width: 620px;
 }
 
-li{
-    display: flex;
-    gap: 10px;
-    padding: 8px;
-    padding-left: 0px;
-    border-radius: 4px;
-    align-items: center;
+#watermelon {
+  height: 200px;
+}
+
+#navigation_bar {
+  height: 100%;
+  flex: 0.2;
+  border-right: 1px solid grey;
+  padding-left: 10px;
+  padding-right: 7px;
+>>>>>>> 2fca1895070905a565c74abcd892138b4f7ed7f1
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+li:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+}
+
+li {
+  display: flex;
+  gap: 10px;
+  padding: 8px;
+  padding-left: 0px;
+  border-radius: 4px;
+  align-items: center;
+}
+.middle {
+  display: flex;
+  align-items: center;
+  background-color: rgb(215, 15, 15);
+  justify-content: space-between;
+}
+.icon_js {
+  display: flex;
+  align-items: center;
+}
+.narrow_div {
+  display: flex;
+  align-items: center;
+}
+h4 {
+  color: white;
+}
+.content {
+  gap: 25px;
+  margin: 10px;
+  background-color: white;
+}
+.container {
+  display: flex;
+  margin: 10px;
+  background-color: white;
+}
+.quality {
+  background-color: rgb(255, 162, 0);
+}
+
+#footer {
+  color: whitesmoke;
+}
+img {
+  height: 100px;
+  width: 200px;
+}
+.container {
+  display: flex;
+  margin: 20px;
+}
+
+.horiz {
+  display: flex;
+}
+.quality {
+  text-align: center;
+  background-color: rgb(255, 162, 0);
+}
+.needhelp_footer {
+  display: flex;
+  gap: 50px;
+  background-color: rgb(97, 96, 96);
+}
+a {
+  color: #f1f1f2;
+  text-decoration: none;
+}
+.joinus_logo {
+  display: flex;
+  gap: 10px;
+}
+.payment_logo {
+  display: flex;
+}
+.all_footer {
+  background-color: rgb(97, 96, 96);
+}
+.jumia_footer {
+  background-color: black;
+  display: flex;
+  gap: 40px;
+  padding-right: 0px;
+  place-content: center;
+  justify-content: center;
+}
+.gender_button {
+  gap: 20px;
+  height: 48px;
+  width: 70px;
+  border-color: #f68b1e;
+  color: #f68b1e;
+  outline: 0;
+  font-size: 0.75rem;
+  padding: 15px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0;
+  overflow: visible;
+  box-sizing: border-box;
+}
+.email_input {
+  padding-left: 48px;
+  font-size: 1rem;
+  padding-bottom: 14px;
+  padding-top: 14px;
+  height: 48px;
+  width: 60%;
+  box-shadow: none;
+  color: #313133;
+  border-radius: 4px;
+  border: 1px solid #a3a3a6;
+  margin: 0;
+  box-sizing: border-box;
+}
+.emaigender {
+  display: flex;
+}
+.downloadapp {
+  padding-left: 600px;
+}
+.newjumia {
+  padding-left: 10%;
+}
+
+/* Added */
+.others_footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, [col-start] 250px [col-end])
 }
