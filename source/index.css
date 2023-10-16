@@ -23,12 +23,7 @@ body {
 
 
 
-li:hover {
-  color: #f68b1e;
-  border-radius: 3px;
-  
-  
-}
+
 
 
 .middle {
@@ -204,4 +199,9 @@ a {
   height: 100%;
   width: 50%;
   border-radius: 5px;
+}
+
+
+.navigation_bar > ul{
+  list-style: none;
 }
