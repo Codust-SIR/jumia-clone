@@ -3,6 +3,9 @@ body {
 
   padding: 0;
   background-color: gainsboro;
+
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Helvetica Neue, Arial, sans-serif;
 }
 #ads_photo {
   height: 430px;
@@ -200,8 +203,48 @@ a {
   width: 50%;
   border-radius: 5px;
 }
+<<<<<<< HEAD
 
 
 .navigation_bar > ul{
   list-style: none;
 }
+=======
+.navigation_bar > ul {
+  background-color: white;
+  list-style: none;
+  padding: 9px;
+  margin: 0;
+  border-radius: 3px;
+  width: 16%;
+}
+
+.navigation_bar > ul > li {
+  display: flex;
+  gap: 10px;
+  padding-top: 5px;
+}
+.navigation_bar > ul > li:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.aside_top {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+.aside_top_item {
+  display: flex;
+  align-items: center;
+}
+.aside_top_item > img {
+  height: 30px;
+  width: 30px;
+}
+.aside_top_item > div {
+  /* display: flex;
+  gap: 0px;
+  flex-direction: column; */
+}
+>>>>>>> 9143a29c3e69122e76386b96d4085b9303f06cb4
