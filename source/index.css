@@ -24,7 +24,7 @@ body {
   padding-right: 7px;
 }
 
-/* ul {
+ ul {
   list-style: none;
   padding: 0px;
 }
@@ -41,7 +41,12 @@ li {
   padding-left: 0px;
   border-radius: 4px;
   align-items: center;
-} */
+} *
+.content{
+  display: flex;
+  
+}
+
 .middle {
   display: flex;
   align-items: center;
