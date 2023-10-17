@@ -24,24 +24,6 @@ body {
   padding-right: 7px;
 }
 
-/* ul {
-  list-style: none;
-  padding: 0px;
-}
-
-li:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 3px;
-}
-
-li {
-  display: flex;
-  gap: 10px;
-  padding: 8px;
-  padding-left: 0px;
-  border-radius: 4px;
-  align-items: center;
-} */
 .middle {
   display: flex;
   align-items: center;
@@ -114,10 +96,9 @@ a {
 .jumia_footer {
   background-color: black;
   display: flex;
-  gap: 40px;
+  /* gap: 40px; */
   padding-right: 0px;
-  place-content: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 .gender_button {
   gap: 20px;
@@ -155,12 +136,7 @@ a {
 .emaigender {
   display: flex;
 }
-.downloadapp {
-  padding-left: 600px;
-}
-.newjumia {
-  padding-left: 10%;
-}
+
 
 /* Added */
 .others_footer {
@@ -252,4 +228,51 @@ a {
   /* display: flex;
   gap: 0px;
   flex-direction: column; */
+}
+
+.contents {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  padding: 10px;
+}
+
+.contents > div > img {
+  object-fit: contain;
+  padding: 1px;
+  padding-top: 20px;
+}
+.contents > div:hover {
+  box-shadow: 1.5px 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.1);
+}
+.contents > div {
+  width: 180px;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.electronics {
+  display: flex;
+  justify-content: space-between;
+  background-color: orange;
+  align-items: center;
+  padding: 5px;
+}
+.electronics > h4 {
+  color: black;
+}
+.electronics > button {
+  border: none;
+  background-color: transparent;
+  font-size: 15px;
+}
+.deals {
+  display: flex;
+  background-color: white;
+  padding: 10px;
+}
+
+.deal_item > img {
+  object-fit: cover;
+  height: 50%;
 }
