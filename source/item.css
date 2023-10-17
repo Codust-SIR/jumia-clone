@@ -60,18 +60,5 @@ body{
     
 }
 
-.bar{
-    display: flex;
-    align-items: center;
-    background-color: red;
-    justify-content: space-between;}
-
-.bar_jj{
-    display: flex;
-    align-items: center;
-}
-h5{
-    color: white;
-}
 
 
