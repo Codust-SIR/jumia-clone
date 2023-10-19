@@ -10,25 +10,24 @@ body{
 
 .official_delivery{
     display: flex;
-    justify-content: space-between;
-    gap: 29px;
     padding-top: 20px;
     padding-left: 35px;
-    
-    
+    gap: 9px; 
 }
 .fsfs{
     flex: 0.7;
     background-color: white;
-    height: 85vh;
-    border-radius: 2px;
+    height: 99vh;
+    border-radius: 7px;
+    place-items: center;
 }
 .drdr{
     
     background-color: white;
     height: 856px;
     width: 400px;
-    margin-right: 50%;
+    border-radius: 7px;
+    place-items: center;
 
 }
 
@@ -110,3 +109,59 @@ button>:hover{
     display: flex;
  }
  
+ .click{
+    background-color: orange;
+    height: 55px;
+    width: 599px;
+    border-radius: 10px;
+    
+    
+ }
+
+ .free_delivery {
+    height: 60px;
+    width: 100%;
+    background-color: orange;
+    display: flex;
+    place-content: center;
+  }
+  .free_delivery > img {
+    height: 60px;
+    width: 50%;
+  }
+  
+  .search_field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+  }
+  .search_field > img {
+    height: 80px;
+    width: 120px;
+  }
+  .search_field > input {
+    height: 35px;
+    width: 40%;
+    border: 1px solid #a3a3a6;
+    border-radius: 5px;
+  }
+  .search_field > button {
+    height: 40px;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+  }
+
+  .mimo{
+    padding-left: 20px;
+  }
+  .mimo > button{
+    background-color: transparent;
+    border: none;
+    
+  }
+  
