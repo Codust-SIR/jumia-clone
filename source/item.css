@@ -174,12 +174,19 @@ button>:hover{
   }
 
   .product{
-    flex: 0.7;
     background-color: white;
-    height: 2099px;
-    width: 1090px;
+    width: 65%;
     border-radius: 7px;
     place-items: center;
-   align-items: center;
+    align-items: center;
+    
   }
+
+.media{
+    text-align: center;
+}
+
+.vid{
+    align-items: center;
+}
   
