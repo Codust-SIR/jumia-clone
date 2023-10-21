@@ -25,7 +25,7 @@ body{
     
     background-color: white;
     height: 856px;
-    width: 400px;
+    width: 300px;
     border-radius: 7px;
     place-items: center;
 
@@ -163,5 +163,23 @@ button>:hover{
     background-color: transparent;
     border: none;
     
+  }
+
+  .truck > .icon{
+    background-color: orange;
+  }
+
+  .incorrect{
+    margin-bottom: 100%;
+  }
+
+  .product{
+    flex: 0.7;
+    background-color: white;
+    height: 2099px;
+    width: 1090px;
+    border-radius: 7px;
+    place-items: center;
+   align-items: center;
   }
   
